@@ -1,10 +1,10 @@
 metadata :name        => "DNS",
-  		 :description => "DNS Management",
-  		 :author      => "Johan van den Dorpe",
-  		 :license     => "Apache v2",
-  		 :version     => "1.0",
-  		 :url         => "http://johan.org.uk",
-  		 :timeout     => 5
+       :description => "DNS Management",
+       :author      => "Johan van den Dorpe",
+       :license     => "Apache v2",
+       :version     => "1.0",
+       :url         => "http://johan.org.uk",
+       :timeout     => 5
 
 action "add", :description => "Add DNS Entry" do
   
@@ -25,8 +25,8 @@ action "add", :description => "Add DNS Entry" do
 
   output :status,
     :description => "Output status of command",
-		:display_as  => "Output Status",
-		:default     => "unknown status"
+    :display_as  => "Output Status",
+    :default     => "unknown status"
 
 end
 
@@ -42,8 +42,8 @@ action "delete", :description => "Delete DNS Entry" do
 
   output :status,
     :description => "Output status of command",
-		:display_as  => "Output Status",
-		:default     => "unknown status"
+    :display_as  => "Output Status",
+    :default     => "unknown status"
 
 end
 

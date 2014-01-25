@@ -8,9 +8,9 @@ metadata :name        => "Puppet Runner",
 
 action "run", :description => "Synchronous run of puppet agent" do
 
-	output  :status,
-    	    :description => "Output status of command",
-		      :display_as  => "Output Status",
-		      :default     => "unknown status"
+  output  :status,
+          :description => "Output status of command",
+          :display_as  => "Output Status",
+          :default     => "unknown status"
 
 end

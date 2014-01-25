@@ -16,9 +16,9 @@ action "delete", :description => "Remove node from dashboard" do
         :optional    => false,
         :maxlength   => 30
 
-	output :status,
+  output :status,
      :description => "Output status of command",
-		 :display_as  => "Output Status",
-		 :default     => "unknown status"
+     :display_as  => "Output Status",
+     :default     => "unknown status"
 
 end

@@ -33,7 +33,7 @@ module MCollective
         validate :site, String
         site = request[:site]
         file = "/opt/certs/#{site}/private_keys/default-site.pem"
-	begin
+  begin
           key = File.read(file)
         rescue => err
           logger.error(err)
